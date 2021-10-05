@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Simple weather forecast</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Simple HTML/JavaScript application for fetching weather from Open Weather Map">
+    <meta name="author" content="Ivo Šmerek">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Simple weather forecast">
+    <meta property="og:description" content="Simple HTML/JavaScript application for fetching weather from Open Weather Map">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="shortcut icon" href="static/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="">
+
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <script src="static/js/main.js"></script>
+
+    <link rel="stylesheet" href="static/GifLoader.js/src/css/loader.css">
+    <script src="static/GifLoader.js/src/js/loader.js"></script>
+</head>
+
+<body>
+    <script>
+        let loader = new Loader("static/GifLoader.js/src/images/hex-loader.gif", true);
+    </script>
+
+    <header>
+        <h1>Simple weather forecast</h1>
+        <label for="city">Choose your city:</label>
+        <input id="city" type="text" oninput="search(this.value)" placeholder="Enter first 3 letters">
+        <table id="whisperer">
+            <tr>
+                <td>Suggestions will appear here</td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -34,3 +34,6 @@ from [Open Weather Map](https://openweathermap.org).
 - [static/styles](static/styles) - SASS and CSS files.
 - [static/GifLoader.js](static/GifLoader.js) -
 [My library](https://github.com/BlueManCZ/GifLoader.js) for nice loading animation.
+
+## Screenshot
+![Screenshot](static/screenshot.png)

@@ -20,6 +20,8 @@ cd simple-weather-forecast
 Start typing into the search bar and city recommendations will appear.
 Choose one and the weather forecast will be fetched and displayed.
 
+Application also supports geolocation.
+
 ## Project structure
 
 - [index.html](index.html) - HTML structure.
@@ -28,7 +30,7 @@ Choose one and the weather forecast will be fetched and displayed.
 and functions.
 - [static/data/city.list.js](static/data/city.list.js) - city
 database [JSON file](https://bulk.openweathermap.org/sample/city.list.json.gz)
-from Open Weather Map.
+from [Open Weather Map](https://openweathermap.org).
 - [static/styles](static/styles) - SASS and CSS files.
 - [static/GifLoader.js](static/GifLoader.js) -
 [My library](https://github.com/BlueManCZ/GifLoader.js) for nice loading animation.

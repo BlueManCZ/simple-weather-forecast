@@ -220,6 +220,10 @@ window.addEventListener("load", function () {
          }
       }
    })
+
+   if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(setPosition);
+   }
 });
 
 
@@ -235,6 +239,12 @@ function search(city) {
 
    whisperer.updateEntries(result);
    whisperer.show();
+}
+
+
+function setPosition(position) {
+   // Download forecast for user's current position based on geolocation
+   fetchForecast(position.coords.latitude, position.coords.longitude);
 }
 
 
